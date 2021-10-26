@@ -6,7 +6,7 @@
 LANG=C
 
 # Requires compat-nettle32
-MOCKS+=centos-stream-8-x86_64
+MOCKS+=epel-8-x86_64
 
 MOCKCFGS+=$(MOCKS)
 MOCKCFGS+=samba4repo-8-x86_64
